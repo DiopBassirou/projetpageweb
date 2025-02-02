@@ -1,0 +1,66 @@
+.nav-lien .nav-link{
+    border-bottom:1px solid transparent;
+    transition:  1s ;
+    color: rgb(14, 14, 193);
+    font-family: serif;
+    font-size: 20px;
+}
+.nav-lien{
+    z-index: 99;
+
+}
+.nav-lien .nav-link:hover{
+    padding-top: 20px;
+    border-bottom-color: aqua;
+}
+.btncommand{
+    color: rgb(13, 250, 49);
+    border-color: hwb(122 2% 3%);
+    transition: 1s;
+}
+.btncommande{
+    color: #f30b6b;
+    border-color: #ea3b6a;
+    transition: 1s;
+}
+.btncommand:hover{
+    color: aliceblue;
+    background: #0cd20c;
+    padding-top: 15px;
+}
+.btncommande:hover{
+    color: aliceblue;
+    background: #f409f0;
+    padding-top: 15px;
+}
+.banner{
+    background: fixed url(/images/restaurant-2.jpg) center center no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.formulaire{
+    background: fixed url(/images/restaurant-2.jpg) center center no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.mesfruits{
+    background: fixed #a183a9;
+}
+.text-acceui{
+    font-size: 48px;
+    font-family:calc();
+    color: aliceblue;
+}
+.mesvariete{
+    background: fixed url(/images/restaurant-2.jpg) center center no-repeat;
+    background-size: cover;
+    height: 1100px;
+    font-family:'Times New Roman', Times, serif ;
+    
+}
+@media screen and (max-width:446px) {
+    .mesvariete{
+        height: 2000px;
+    }
+    
+}
